@@ -82,7 +82,7 @@ expect(colorScheme(colors2)).toEqual(expect.arrayContaining(["saffron", "aquamar
 
 const colorScheme = (array) => {
   array.shift()
-  console.log(array.sort(() => Math.random() - 0.5));
+  // console.log(array.sort(() => Math.random() - 0.5));
   return array.sort(() => Math.random() - 0.5)
 }
 
@@ -98,10 +98,8 @@ const colorScheme = (array) => {
  // Expected output: [5, 109]
 
  it("takes an array of numbers and returns an array of the minimum and maximum numbers in that order.", () =>{  
-expect(bigNlittle(nums1)).toEqual(expect.arrayContaining([-8, 90])),
-expect(bigNlittle(nums1)).not.toEqual(expect.arrayContaining([3, 56,0, 23, 6])) ,
+expect(bigNlittle(nums1)).toEqual(expect([-8, 90])),
 expect(bigNlittle(nums2)).toEqual(expect.arrayContaining([5, 109])) 
-expect(bigNlittle(nums2)).not.toEqual(expect.arrayContaining([9, 67, 8, 24]))
 })
 });
 
