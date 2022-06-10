@@ -7,17 +7,17 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What are props in React?
 
-  Your answer: Props in react gives us the ability to pass data down to nested components.
-Props are like  arguments to a function. I currently used props to pass into a component in my treasure hunt challenge.
+  Your answer: Props  in react means properties and gives us the ability to pass data down to nested components.
+Props are like  arguments to a function. I currently used props in class to pass into a components in my tic tac toe challenge using this.props.
 
   Researched answer:
-Props(properties) give us the ability to communicate by passing data and methods between components. Specifically, it gives us the ability to pass data down to nested components.Data from props is read-only, and cannot be modified by a component that is receiving it from outside.
+Props(properties) give us the ability to communicate by passing data and methods between components. Props also gives us the ability to pass data down to nested components.Data from props is read-only, and cannot be modified by a component that is receiving it from outside.Props cannot be modified.
 
 
 2. What is a DOM event?
 
   Your answer:
-DOM tracks whats need to be clicked,it tracks when your hover over something in the application and it reacts. DOM is basically like a tracker.For example i previously used DOM BY CREATING AN onclick button for a pig latin application.
+DOM tracks whats need to be clicked,it tracks when your hover over something in the application and it reacts. DOM is basically like a tracker.For example i previously used DOM by creating an onclick button for a pig latin application.
  
   Researched answer:
 The DOM (Document Object Model) is always listening for changes. As a user moves their mouse across the screen, the DOM reacts by changing the view to represent the cursor's position.It allows JavaScript to register different event handlers on elements in an HTML document.
@@ -25,7 +25,7 @@ The DOM (Document Object Model) is always listening for changes. As a user moves
 
 3. What is object-oriented programming? How is it different than functional programming?
 
-  Your answer: Object-oriented programming(OOP) is mainly used with other languages like ruby that focus on data and objects.The difference between OOP and functional programming is functional  programming use mostly variables,functions and follows a declarative programming model.
+  Your answer: Object-oriented programming(OOP) is used with other languages like ruby that focus on data and objects.The difference between OOP and functional programming is functional  programming use mostly variables and functions.
 
   Researched answer:
   Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.OOP focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. This approach to programming is well-suited for programs that are large, complex and actively updated or maintained. This includes programs for manufacturing and design, as well as mobile applications.n functional programming, data cannot be stored in objects, and it can only be transformed by creating functions. 
@@ -36,16 +36,14 @@ The DOM (Document Object Model) is always listening for changes. As a user moves
 
   Your answer: A float in Ruby is a number with  decimal pointe a interger is a whole number. At first jumping from Ruby to javascript I was confused hearing interger but float is the same thing. If your using any number or dividing substracting or adding anything in ruby your going to be using intergers and floats.
 
-  Researched answer:
-A floating-point number or a float represents a real number in ruby.A integers in computer programming are whole numbers that can be positive, negative, or 0.
-
+  Researched answer:Float is a number that has a decimal point it is needed when a more precisse number is needed. A interger has no decimal point.They are two different kinds of numerical datas.Something interesting is a interger can be added to a float.
 
 5. Ruby has an implicit return. What does that mean?
 
-  Your answer: An implicit return means you dont have to put a retun with a method.It automatically does it.
+  Your answer: An implicit return means you dont have to put a retun with a method.It automatically does it for you.
 
   Researched answer:
-Ruby has an implicit return, which means the value of the last line of a method is automatically returned without using the keyword return
+Ruby has an implicit return, which means the value of the last line of a method is automatically returned without using the keyword return.
 
 
 ## Looking Ahead: Terms for Next Week
